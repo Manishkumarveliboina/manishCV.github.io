@@ -1,0 +1,76 @@
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header-strip {
+  background-color: rgb(109, 185, 218);
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  border: 5px solid #fff;
+}
+
+.circle-frame {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  border: 10px solid #fff;
+}
+
+#gradient-container {
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom, #eeb6b6, rgb(234, 221, 108));
+  background-size: 100% 100%;
+  transition: background-position 0.5s ease;
+  border: 5px solid #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+}
+
+.text-container {
+  max-width: 70%;
+}
+
+h1, h2 {
+  color: #000;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  color: #000;
+  margin: 0 0 0 20px;
+}
+
+p, pre {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Style for the image with a border */
+.bordered-image {
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+/* Added styles for text wrapping around the image */
+.wrap-text {
+  float: left;
+  width: calc(70% - 30px); /* Adjust the width as needed, considering the space for the image */
+  margin-right: 30px; /* Adjust the margin to create space between the image and text */
+}
